@@ -21,7 +21,13 @@ local.properties
 .classpath
 .project
 
-# IntelliJ IDEA files
+#IntelliJ IDEA
+.idea
 *.iml
+*.ipr
+*.iws
+classes
+gen-external-apklibs
+out
 
 *.gradle

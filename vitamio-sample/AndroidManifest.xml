@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
     package="io.vov.vitamio.demo"
     android:versionCode="002"
     android:versionName="0.0.2" >
@@ -15,7 +16,8 @@
     <application
         android:allowBackup="false"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/vitamio_demo_name" >
+        android:label="@string/vitamio_demo_name"
+        tools:replace="android:label">
 
         <!-- Don't forgot InitActivity -->
         <activity

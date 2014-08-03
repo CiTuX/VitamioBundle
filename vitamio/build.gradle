@@ -1,6 +1,7 @@
-apply plugin: 'android-library'
+apply plugin: 'com.android.library'
 
 dependencies {
+    compile 'org.holoeverywhere:library:2.1.1-SNAPSHOT@aar'
 }
 
 android {

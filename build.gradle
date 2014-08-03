@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.9.+'
+        classpath 'com.android.tools.build:gradle:0.12.+'
     }
 }
 
@@ -13,6 +13,8 @@ allprojects {
 
     repositories {
         mavenCentral()
+        maven { url 'http://192.241.191.41/repo/' }
+        maven { url 'http://192.241.191.41/snapshot/' }
     }
 }
 

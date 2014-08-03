@@ -32,12 +32,8 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.FrameLayout;
-import android.widget.ImageButton;
-import android.widget.PopupWindow;
-import android.widget.SeekBar;
-import android.widget.SeekBar.OnSeekBarChangeListener;
-import android.widget.TextView;
+
+import org.holoeverywhere.widget.*;
 
 import java.lang.reflect.Method;
 
@@ -123,7 +119,7 @@ public class MediaController extends FrameLayout {
       show(sDefaultTimeout);
     }
   };
-  private OnSeekBarChangeListener mSeekListener = new OnSeekBarChangeListener() {
+  private SeekBar.OnSeekBarChangeListener mSeekListener = new SeekBar.OnSeekBarChangeListener() {
     public void onStartTrackingTouch(SeekBar bar) {
       mDragging = true;
       show(3600000);
